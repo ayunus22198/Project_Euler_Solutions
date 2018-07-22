@@ -4,9 +4,9 @@ public double sum_of_even_fib_nums(double num) {
   double fibonacciNumberOne = 1.0;
   double fibonacciNumberTwo = 2.0;
   if(num == 1)
-    return fibonacciNumberOne;
+    return 0;
   if(num == 2)
-    return fibonacciNumberOne + fibonacciNumberTwo;
+    return fibonacciNumberTwo;
   double sum = 2.0;
   while(fibonacciNumberTwo < num) {
     double temp = fibonacciNumberTwo;
